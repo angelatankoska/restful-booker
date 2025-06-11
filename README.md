@@ -26,7 +26,7 @@ All tests are located in `BookingTests.java`:
 - **RestAssured**
 - **TestNG**
 - **AssertJ**
-- **Maven**
+- **Maven 3.9.9**
 - **IntelliJ IDEA**
 
 ## How to Run the Tests
