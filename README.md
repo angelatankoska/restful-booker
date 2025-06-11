@@ -22,7 +22,7 @@ All tests are located in `BookingTests.java`:
 
 ## Technologies Used
 
-- **Java 17**
+- **Java 21**
 - **RestAssured**
 - **TestNG**
 - **AssertJ**
