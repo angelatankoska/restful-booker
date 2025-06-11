@@ -7,7 +7,7 @@ This project contains automated API tests for the [Restful Booker](https://restf
 - API Documentation: [https://restful-booker.herokuapp.com/apidoc/index.html](https://restful-booker.herokuapp.com/apidoc/index.html)
 - Postman Collection: [https://www.postman.com/automation-in-testing/restful-booker-collections/overview](https://www.postman.com/automation-in-testing/restful-booker-collections/overview)
 
-## 🧪 Covered Test Scenarios
+## Covered Test Scenarios
 
 All tests are located in `BookingTests.java`:
 
@@ -28,41 +28,6 @@ All tests are located in `BookingTests.java`:
 - **AssertJ**
 - **Maven**
 - **IntelliJ IDEA**
-
-## Project Structure
-restful-booker/
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com.restfulbooker/
-│ │ │ ├── clients/
-│ │ │ │ ├── AuthClient.java
-│ │ │ │ └── BookingClient.java
-│ │ │ ├── config/
-│ │ │ │ └── ApiConfig.java
-│ │ │ ├── models/
-│ │ │ │ ├── AuthRequest.java
-│ │ │ │ ├── AuthResponse.java
-│ │ │ │ ├── Booking.java
-│ │ │ │ ├── BookingDates.java
-│ │ │ │ └── BookingResponse.java
-│ │ │ ├── payloads/
-│ │ │ │ └── BookingPayload.java
-│ │ │ └── utils/
-│ │ │ └── ApiUtils.java
-│ │ └── resources/
-│ │ └── config.properties
-│
-├── test/
-│ └── java/
-│ └── com.restfulbooker.tests/
-│ ├── AuthTests.java
-│ ├── BaseTest.java
-│ └── BookingTests.java
-│
-├── .gitignore
-└── pom.xml
-└── README.md
 
 ## How to Run the Tests
 
